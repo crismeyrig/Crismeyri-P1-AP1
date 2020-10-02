@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Crismeyri_P1_AP1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Menù" Height="250" Width="350">
     <Grid>
+     <Menu IsMainMenu="True" VerticalAlignment="Top">
+            <MenuItem Header="_Registro">
+                <MenuItem Name="rPersonasMenu" Header="Registro de Personas" />
+                <MenuItem Name="rProductosMenu" Header="Registro de Productos"/>
+            </MenuItem>
+
+            <MenuItem Header="_Consultar">
+                <MenuItem Name="cPersonasMenu" Header="Consulta de Personas"/>
+                <MenuItem Name="cProductosMenu" Header="Consulta de productos"/> 
+            </MenuItem>
+
+            <MenuItem Name="AyudaMenu" Header="Ayuda" />
+        </Menu>
 
     </Grid>
 </Window>
