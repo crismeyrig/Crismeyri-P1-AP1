@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Crismeyri_P1_AP1.UI.Registro;
+using Crismeyri_P1_AP1.UI.Consulta;
 
 namespace Crismeyri_P1_AP1
 {
@@ -24,5 +26,24 @@ namespace Crismeyri_P1_AP1
         {
             InitializeComponent();
         }
+         private void RegistrosCiudadesButton_Click(object sender, RoutedEventArgs e)
+        {
+            rCiudades rCiudades1 = new rCiudades();
+            rCiudades1.Show();
+
+        }
+
+        private void ConsultaCiudadesButton_Click(object sender, RoutedEventArgs e)
+        {
+            cCiudades cCiudades1 = new cCiudades();
+            cCiudades1.Show();
+
+        }
+       
+        private void AyudaMenu_Click(object sender, RoutedEventArgs e)
+        {
+    }
+}
+}
     }
 }

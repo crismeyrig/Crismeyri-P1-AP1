@@ -1,12 +1,15 @@
 using System;
+using System.Collections.Generic;
+using System.Text;
 using System.ComponentModel.DataAnnotations;
 
-namespace Crismeyri-P1-AP1.Entidades
+
+namespace Crismeyri_P1_AP1.Entidades
 {
 
 public class Ciudades{
 [Key]
-public int CiudadesId {get; set;} =0;
+public int CiudadesId {get; set;} 
 
 public string Nombre {get; set;}
 

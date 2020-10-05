@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using System;
-using Crismeyri-P1-AP1.Entidades;
+using Crismeyri_P1_AP1.Entidades;
 
 
-namespace Crismeyri-P1-AP1.DAL{
+namespace Crismeyri_P1_AP1.DAL{
 
 public class Contexto:DbContext
 {

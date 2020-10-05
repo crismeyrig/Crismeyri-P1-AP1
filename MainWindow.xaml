@@ -9,13 +9,12 @@
     <Grid>
      <Menu IsMainMenu="True" VerticalAlignment="Top">
             <MenuItem Header="_Registro">
-                <MenuItem Name="rPersonasMenu" Header="Registro de Personas" />
-                <MenuItem Name="rProductosMenu" Header="Registro de Productos"/>
+                <MenuItem Name="rCiudadesMenu" Header="Registro de Personas" />
             </MenuItem>
 
             <MenuItem Header="_Consultar">
-                <MenuItem Name="cPersonasMenu" Header="Consulta de Personas"/>
-                <MenuItem Name="cProductosMenu" Header="Consulta de productos"/> 
+                <MenuItem Name="cPersonasMenu" Header="Consulta de Ciudades"/>
+                
             </MenuItem>
 
             <MenuItem Name="AyudaMenu" Header="Ayuda" />
