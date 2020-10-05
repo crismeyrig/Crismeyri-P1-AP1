@@ -7,7 +7,7 @@ namespace Crismeyri_P1_AP1.DAL{
 
 public class Contexto:DbContext
 {
-    public DbSet <Ciudades> Ciudad {get; set;}
+    public DbSet <Ciudades> Ciudades {get; set;}
     
       protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

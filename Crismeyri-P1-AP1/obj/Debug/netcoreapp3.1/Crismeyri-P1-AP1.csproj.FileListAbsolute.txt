@@ -1,0 +1,13 @@
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\bin\Debug\netcoreapp3.1\Crismeyri-P1-AP1.exe
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\bin\Debug\netcoreapp3.1\Crismeyri-P1-AP1.deps.json
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\bin\Debug\netcoreapp3.1\Crismeyri-P1-AP1.runtimeconfig.json
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\bin\Debug\netcoreapp3.1\Crismeyri-P1-AP1.runtimeconfig.dev.json
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\bin\Debug\netcoreapp3.1\Crismeyri-P1-AP1.dll
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\bin\Debug\netcoreapp3.1\Crismeyri-P1-AP1.pdb
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\obj\Debug\netcoreapp3.1\Crismeyri-P1-AP1.csprojAssemblyReference.cache
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\obj\Debug\netcoreapp3.1\Crismeyri-P1-AP1.AssemblyInfoInputs.cache
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\obj\Debug\netcoreapp3.1\Crismeyri-P1-AP1.AssemblyInfo.cs
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\obj\Debug\netcoreapp3.1\Crismeyri-P1-AP1.csproj.CoreCompileInputs.cache
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\obj\Debug\netcoreapp3.1\Crismeyri-P1-AP1.dll
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\obj\Debug\netcoreapp3.1\Crismeyri-P1-AP1.pdb
+C:\Users\Crismeyri\source\repos\Crismeyri-P1-AP1\Crismeyri-P1-AP1\obj\Debug\netcoreapp3.1\Crismeyri-P1-AP1.genruntimeconfig.cache
