@@ -26,7 +26,7 @@ namespace Crismeyri_P1_AP1
         {
             InitializeComponent();
         }
-         private void RegistrosCiudadesButton_Click(object sender, RoutedEventArgs e)
+         private void RegistroCiudadesButton_Click(object sender, RoutedEventArgs e)
         {
             rCiudades rCiudades1 = new rCiudades();
             rCiudades1.Show();

@@ -16,7 +16,7 @@ using Crismeyri_P1_AP1.BLL;
 using Crismeyri_P1_AP1.Entidades;
 using Crismeyri_P1_AP1.DAL;
 
-namespace Repaso.UI.Registro
+namespace Crismeyri_P1_AP1.UI.Registro
 {
 public partial class rCiudades : Window
     {
@@ -26,13 +26,13 @@ public partial class rCiudades : Window
             InitializeComponent();
             this.DataContext = ciudades;
         }
-        //LIMPIAR
+        //Limpiar
         private void Limpiar()
         {
             this.ciudades = new Ciudades();
             this.DataContext = ciudades;
         }
-        //VALIDAR
+        //validar
         private bool Validar()
         {
             bool esValido = true;
@@ -43,7 +43,7 @@ public partial class rCiudades : Window
             }
             return esValido;
         }
-        //BUSCAR
+        //buscar
         private void BuscarButton_Click(object sender, RoutedEventArgs e)
         {
             var usuarios = CiudadesBLL.Buscar(Utilidades.ToInt(CiudadIdTextbox.Text));
@@ -54,12 +54,12 @@ public partial class rCiudades : Window
 
             this.DataContext = this.ciudades;
         }
-        //NUEVO
+        //nuevo
         private void NuevoButton_Click(object sender, RoutedEventArgs e)
         {
             Limpiar();
         }
-        //GUARDAR
+        //guardar
         private void GuardarButton_Click(object sender, RoutedEventArgs e)
         {
             {
@@ -76,7 +76,7 @@ public partial class rCiudades : Window
                     MessageBox.Show("Transaccion Fallida", "Fallo", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
-        //ELIMINAR
+        //eliminar
         private void EliminarButton_Click(object sender, RoutedEventArgs e)
         {
             {
