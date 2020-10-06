@@ -12,7 +12,7 @@ public class Contexto:DbContext
       protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlite(@"Source=Data\Ciudades.db");
+            optionsBuilder.UseSqlite(@"Data Source=Ciudades.db");
         }
 
 }
