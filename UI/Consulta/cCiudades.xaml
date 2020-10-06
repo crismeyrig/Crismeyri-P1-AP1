@@ -23,7 +23,7 @@
                     <TextBox x:Name="CriterioTextBox" Width="95" Height="24" Margin="0,0,10,0" VerticalContentAlignment="Center" />
                 </StackPanel>
                 <!--Consultar-->
-                <Button x:Name="ConsultarButton" Height="30" Width="90" Click="ConsultarButton_Click" >
+                <Button x:Name="ConsultarButton" Margin="30,0,0,0" Height="40" Width="100"  Click="ConsultarButton_Click" >
                     <StackPanel Orientation="Horizontal" >
                         <Image Source="/Imagenes/buscar.png" Height="30" />
                         <Label Content="Consultar"/>

@@ -20,7 +20,7 @@ namespace Crismeyri_P1_AP1.UI.Registro
 {
 public partial class rCiudades : Window
     {
-        private Ciudades ciudades = new Ciudades();
+        Ciudades ciudades = new Ciudades();
         public rCiudades()
         {
             InitializeComponent();
@@ -36,19 +36,20 @@ public partial class rCiudades : Window
         private bool Validar()
         {
             bool esValido = true;
-            if (CiudadIdTextbox.Text.Length == 0)
+            if (NombreTextbox.Text.Length == 0)
             {
                 esValido = false;
                 MessageBox.Show("Transaccion Fallida", "La Ciudad no existe", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
+            
             return esValido;
         }
         //buscar
         private void BuscarButton_Click(object sender, RoutedEventArgs e)
         {
-            var usuarios = CiudadesBLL.Buscar(Utilidades.ToInt(CiudadIdTextbox.Text));
+            var ciudades = CiudadesBLL.Buscar(Utilidades.ToInt(CiudadIdTextbox.Text));
             if (ciudades != null)
-                this.ciudades = usuarios;
+                this.ciudades = ciudades;
             else
                 this.ciudades = new Ciudades();
 
@@ -62,19 +63,20 @@ public partial class rCiudades : Window
         //guardar
         private void GuardarButton_Click(object sender, RoutedEventArgs e)
         {
-            {
                 if (!Validar())
+                {
                     return;
-
+                }
                 var paso = CiudadesBLL.Guardar(ciudades);
                 if (paso)
                 {
                     Limpiar();
                     MessageBox.Show("Transaccion Exitosa!", "Se ha guardado correctamente", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
-                else
+                else if (paso == CiudadesBLL.Guardar(ciudades))
+                {
                     MessageBox.Show("Transaccion Fallida", "Debe ingresar la ciudad", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
+                }
         }
         //eliminar
         private void EliminarButton_Click(object sender, RoutedEventArgs e)
