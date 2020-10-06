@@ -9,11 +9,11 @@
     <Grid>
      <Menu IsMainMenu="True" VerticalAlignment="Top">
             <MenuItem Header="_Registro">
-                <MenuItem Name="rCiudadesMenu" Header="Registro de Personas" />
+                <MenuItem Name="rCiudadesMenu" Header="Registro de Personas" Click="RegistroCiudadesButton_Click "/>
             </MenuItem>
 
             <MenuItem Header="_Consultar">
-                <MenuItem Name="cPersonasMenu" Header="Consulta de Ciudades"/>
+                <MenuItem Name="cPersonasMenu" Header="Consulta de Ciudades" Click="ConsultaCiudadesButton_Click " />
                 
             </MenuItem>
 

@@ -13,7 +13,7 @@ mc:Ignorable="d" Title="Registro de Ciudades" Height="350" Width="450">
                 <TextBox x:Name="CiudadIdTextbox" Text="{Binding CiudadId}" Width="150"/>
                 <Button x:Name="BuscarButton" Margin="100,0,0,0" Width="100" Click="BuscarButton_Click">
                     <StackPanel Orientation="Horizontal">
-                        <Image Height="30" />
+                        <Image Source="/Imagenes/buscar.png" Height="30" />
                         <Label Content="Buscar"/>
                     </StackPanel>
                 </Button>
@@ -25,21 +25,21 @@ mc:Ignorable="d" Title="Registro de Ciudades" Height="350" Width="450">
             <StackPanel Orientation="Horizontal" Margin="0,20,0,0" HorizontalAlignment="Center">
                 <Button x:Name="NuevoButton" Width="100" Click="NuevoButton_Click">
                     <StackPanel Orientation="Horizontal">
-                        <Image Height="25" />
+                        <Image  Source="/Imagenes/nuevo.png" Height="25" />
                         <Label Content="Nuevo"/>
                     </StackPanel>
                 </Button>
                 <!--Guardar-->
                 <Button x:Name="GuardarButton" Margin="30,0,0,0" Width="100" Click="GuardarButton_Click">
                     <StackPanel Orientation="Horizontal">
-                        <Image Height="30" />
+                        <Image Source="/Imagenes/guardar.png" Height="30" />
                         <Label Content="Guardar"/>
                     </StackPanel>
                 </Button>
                 <!--Eliminar-->
                 <Button x:Name="EliminarButton" Margin="30,0,0,0" Width="100" Click="EliminarButton_Click">
                     <StackPanel Orientation="Horizontal">
-                        <Image Height="30" />
+                        <Image Source="/Imagenes/eliminar.png" Height="30" />
                         <Label Content="Eliminar"/>
                     </StackPanel>
                 </Button>

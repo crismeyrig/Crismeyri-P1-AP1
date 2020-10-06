@@ -18,7 +18,7 @@ namespace Crismeyri_P1_AP1.BLL
             bool encontrado = false;
             try
             {
-                encontrado = contexto.Ciudades.Any(d => d.ciudades == id);
+                encontrado = contexto.Ciudades.Any(d => d.CiudadesId == id);
             }
             catch (Exception)
             {
@@ -76,7 +76,7 @@ namespace Crismeyri_P1_AP1.BLL
         //GUARDAR
         public static bool Guardar(Ciudades ciudades)
         {
-            if (!Existe(ciudades.CiudadId))
+            if (!Existe(ciudades.CiudadesId))
                 return Insertar(ciudades);
             else
                 return Modificar(ciudades);
