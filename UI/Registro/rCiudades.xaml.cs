@@ -39,7 +39,7 @@ public partial class rCiudades : Window
             if (CiudadIdTextbox.Text.Length == 0)
             {
                 esValido = false;
-                MessageBox.Show("Transaccion Fallida", "Fallo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Transaccion Fallida", "La Ciudad no existe", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
             return esValido;
         }
@@ -70,10 +70,10 @@ public partial class rCiudades : Window
                 if (paso)
                 {
                     Limpiar();
-                    MessageBox.Show("Transaccion Exitosa!", "Exito", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Transaccion Exitosa!", "Se ha guardado correctamente", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
                 else
-                    MessageBox.Show("Transaccion Fallida", "Fallo", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("Transaccion Fallida", "Debe ingresar la ciudad", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
         //eliminar
@@ -83,7 +83,7 @@ public partial class rCiudades : Window
                 if (CiudadesBLL.Eliminar(Utilidades.ToInt(CiudadIdTextbox.Text)))
                 {
                     Limpiar();
-                    MessageBox.Show("Registro Eliminado!", "Exito", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Registro Eliminado!", "Se ha eliminado  correctamente", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
                 else
                     MessageBox.Show("No fue posible eliminar", "Fallo", MessageBoxButton.OK, MessageBoxImage.Error);

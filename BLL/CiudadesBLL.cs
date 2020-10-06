@@ -18,7 +18,7 @@ namespace Crismeyri_P1_AP1.BLL
             bool encontrado = false;
             try
             {
-                encontrado = contexto.Ciudades.Any(d => d.CiudadId == id);
+                encontrado = contexto.Ciudades.Any(d => d.ciudades == id);
             }
             catch (Exception)
             {
