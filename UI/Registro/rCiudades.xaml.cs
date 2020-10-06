@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using Crismeyri_P1_AP1.BLL;
 using Crismeyri_P1_AP1.Entidades;
 using Crismeyri_P1_AP1.DAL;
+using Microsoft.EntityFrameworkCore;
 
 namespace Crismeyri_P1_AP1.UI.Registro
 {

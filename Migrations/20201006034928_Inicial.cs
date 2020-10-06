@@ -10,13 +10,13 @@ namespace Crismeyri_P1_AP1.Migrations
                 name: "Ciudades",
                 columns: table => new
                 {
-                    CiudadesId = table.Column<int>(nullable: false)
+                    CiudadId = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Nombre = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Ciudades", x => x.CiudadesId);
+                    table.PrimaryKey("PK_Ciudades", x => x.CiudadId);
                 });
         }
 

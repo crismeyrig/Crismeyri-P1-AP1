@@ -6,7 +6,7 @@ using Crismeyri_P1_AP1.Entidades;
 namespace Crismeyri_P1_AP1.DAL{
 
 public class Contexto:DbContext
-{
+  {
     public DbSet <Ciudades> Ciudades {get; set;}
     
       protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -15,5 +15,5 @@ public class Contexto:DbContext
             optionsBuilder.UseSqlite(@"Data Source=Ciudades.db");
         }
 
-}
+  }  
 }

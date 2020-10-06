@@ -17,14 +17,14 @@ namespace Crismeyri_P1_AP1.Migrations
 
             modelBuilder.Entity("Crismeyri_P1_AP1.Entidades.Ciudades", b =>
                 {
-                    b.Property<int>("CiudadesId")
+                    b.Property<int>("CiudadId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Nombre")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("CiudadesId");
+                    b.HasKey("CiudadId");
 
                     b.ToTable("Ciudades");
                 });

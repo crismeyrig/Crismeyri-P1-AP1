@@ -31,7 +31,7 @@ namespace Crismeyri_P1_AP1.UI.Consulta
                     case 0:
                         try
                         {
-                            listado = CiudadesBLL.GetList(c => c.CiudadesId == Utilidades.ToInt(CriterioTextBox.Text));
+                            listado = CiudadesBLL.GetList(c => c.CiudadId == Utilidades.ToInt(CriterioTextBox.Text));
                         }
                         catch (FormatException)
                         {

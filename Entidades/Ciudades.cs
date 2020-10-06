@@ -9,7 +9,7 @@ namespace Crismeyri_P1_AP1.Entidades
 
 public class Ciudades{
 [Key]
-public int CiudadesId {get; set;} 
+public int CiudadId {get; set;} 
 
 public string Nombre {get; set;}
 
